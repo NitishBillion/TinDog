@@ -1,0 +1,210 @@
+#title {
+    background-color:#ff4c68;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+    color: beige;
+}
+
+h2{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+    color:black;
+}
+
+h3{
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 600;
+}
+
+p{
+    color:#8f8f8f;
+}
+
+/* sections */
+
+/* .colored-section{
+
+}
+
+.white-section{
+
+} */
+
+
+/* Navigation bar */
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+    font-family: 'ubuntu', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    color:#fff;
+}
+
+.nav-item{
+    padding: 0 18px;
+    color: bisque;
+}
+
+.nav-link{
+    font-size:1.2rem;
+    font-family: 'Montserrat' light;
+    color: bisque;
+}
+
+/* Download buttons */
+
+.download-button{
+    margin: 5% 3% 5% 0;
+    font-family: 'montserrat', sans-serif;
+    
+}
+
+/* title image */
+
+.title-image{
+    width: 25%;
+    transform: rotate(25deg);
+    position:absolute;
+    margin-right:30%;
+}
+
+/* features section */
+
+#features{
+    padding: 7% 15%;
+    /* line-height: 3rem; */
+    background-color:#fff;
+    position: relative;
+    
+}
+
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+
+.icon{
+    color: #e44d39;
+    margin-bottom: 2rem;
+}
+
+.icon:hover{
+    color:#ff4c68;
+}
+
+/* Testimonial Section */
+
+.ny, .ill{
+    color:#fff;
+}
+
+
+#testimonials{
+    
+    text-align: center;
+    background-color: #ff8d7d;
+    
+}
+
+.testimonial-image{
+    width:10%;
+    border-radius: 100%;
+    margin:20px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+    color:#fff;
+}
+
+#press{
+    background-color: #ff8d7d;
+    text-align: center;
+    padding-bottom:3%;
+}
+
+.press-logo{
+    width:15%;
+    margin:20px 20px 50px;
+}
+
+/* Pricing section */
+
+
+#pricing{
+    color: black;
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+    
+}
+
+/* action section */
+
+.cta-heading{
+    font-family: 'montserrat', sans-serif;
+    font-weight: 800;
+    color:#fff;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+
+#cta{
+    background-color:#ff4c68;
+    text-align: center;
+    padding: 7% 15%;
+}
+
+/* Footer Design */
+
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+
+}
+
+.social-icon{
+    margin:20px 10px;
+}
+
+@media (max-width: 1028px){
+
+    #title{
+        text-align:center;
+    }
+
+    .title-image{
+        position:static;
+        transform: rotate(0);
+        width:50%;
+    }
+
+
+}
+
+
+
